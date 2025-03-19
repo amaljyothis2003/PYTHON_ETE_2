@@ -1,11 +1,11 @@
 import streamlit as st
 import google.generativeai as genai
 import time
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os
 
 # Load environment variables
-load_dotenv()
+# load_dotenv()
 
 # Set up Gemini API
 GENAI_API_KEY = st.secrets["GENAI_API_KEY"]
